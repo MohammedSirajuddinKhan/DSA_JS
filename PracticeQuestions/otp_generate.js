@@ -1,0 +1,2 @@
+let a = Math.trunc(Math.random()*9000)+1000 // generates a random 4-digit number between 1000 and 9999 by multiplying the random decimal by 9000 (to get a range of 0 to 8999) and then adding 1000 (to shift the range to 1000 to 9999). The trunc method is used to remove the decimal part, giving us a whole number.
+console.log(a);
