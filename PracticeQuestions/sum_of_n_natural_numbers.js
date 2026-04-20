@@ -1,5 +1,6 @@
 const prompt=require("prompt-sync")();
 var n = Number(prompt("Kahan tak add karvaogey? "))
+
 if(isNaN(n)){
     console.log("Sahi se number dey...!");
 }
